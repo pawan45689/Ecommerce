@@ -1,0 +1,126 @@
+/* 
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  } */
+  
+ 
+  /* .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 500px;
+  } */
+ 
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #4e4e4e00;
+    margin-bottom: 8px;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    transition: border 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: black;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  /* Custom Textareas */
+  textarea.form-control {
+    resize: none;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Title and Card Heading */
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Spacing for the whole form */
+  .container {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  
+  /* Input Fields Spacing */
+  .input-spacing {
+    margin-bottom: 15px;
+  }
+  
+  /* Small Text or Information */
+  .small-text {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .text-center a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 10px;
+    }
+    .card {
+      margin: 20px;
+      padding: 20px;
+    }
+  }
